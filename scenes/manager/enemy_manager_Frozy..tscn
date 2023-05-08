@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://bq8mkj75xfiq0"]
+
+[ext_resource type="Script" path="res://EnemyManager_Frozy..gd" id="1_5wvvo"]
+[ext_resource type="PackedScene" uid="uid://bs8ow123y4c7w" path="res://scenes/basic_enemy/enemey_Frozy.tscn" id="2_wg7xw"]
+
+[node name="EnemyManager_Frozy" type="Node"]
+script = ExtResource("1_5wvvo")
+enemy_Frozy_scene = ExtResource("2_wg7xw")
+
+[node name="Timer" type="Timer" parent="."]
+autostart = true
